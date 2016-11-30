@@ -2,7 +2,6 @@ const styles = {
   header: {
     display: 'flex',
     flexDirection: 'column',
-    backgroundImage: 'url(/src/asset/header.jpeg)',
     backgroundColor: 'rgba(255, 255, 255, 0.3)', 
     width: '100%',
     backgroundSize: 'cover',

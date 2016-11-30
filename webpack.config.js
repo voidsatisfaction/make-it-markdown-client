@@ -21,7 +21,10 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/, // babel 지원안함.
-        loaders: ['react-hot-loader/webpack', 'babel?presets[]=react,presets[]=es2015']
+        loaders: [
+          'react-hot-loader/webpack',
+          'babel?presets[]=react,presets[]=es2015,presets[]=stage-0'
+        ]
       },
       { test: /\.css$/, loader: 'style-loader!css-loader' },
       { test: /\.svg$/, loader: 'url-loader?mimetype=image/svg+xml' },

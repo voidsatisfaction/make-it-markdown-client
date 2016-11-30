@@ -19,7 +19,7 @@ export default class App extends Component {
             placeholder="Enter any url where you want to extract md file" 
           />
           <button style={style.button} type="submit" className="btn btn-default">
-            Get .md
+            Get HTML
           </button>
         </form>
       </div>
